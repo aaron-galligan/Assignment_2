@@ -12,25 +12,28 @@ namespace KIT206Assn2
     public class Researcher
     {
 
-        public int id { get; set; }
-        public String givenName { get; set; }
-        public String familyName { get; set; }
-        public String school { get; set; } 
-        public String unit { get; set; }
-        public double tenure { get; set; }
+        public int Id { get; set; }
+        public String GivenName { get; set; }
+        public String FamilyName { get; set; }
+        public String School { get; set; } 
+        public String Unit { get; set; }
+        public double Tenure { get; set; }
 
 
         /*need to work out if we want to store all the publications in the researcher as objects or as a list of names
-         storing them as objects means we will have to load up all the information for all the publications for all researchers on startup
-         as opposed to just loading in the publications when a researcher is 
+         -storing them as objects means we will have to load up all the information for all the publications for all researchers on startup
+         -or we can just load up the names and dates of their publications (we may need to use a 2d array or list)
          */
-        public List<String> publications { get; set; }
 
 
-        public Campus campus { get; set; }
-        public Title title { get; set; }
-        public CurrentJobTitle currentJobTitle { get; set; }
-        public String photo { get; set; } //its a url, might be a different way to store it but string will work for now
+        //stores a list of arrays size 2 for each publication, which has the name and date
+        public List<String[]> Publications { get; set; } 
+
+
+        public Campus Campus { get; set; }
+        public Title Title { get; set; }
+        public CurrentJobTitle CurrentJobTitle { get; set; }
+        public String Photo { get; set; } //its a url, might be a different way to store it but string will work for now
         public Position Position { get; set; }
         
     }

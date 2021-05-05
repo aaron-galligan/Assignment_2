@@ -9,9 +9,9 @@ namespace KIT206Assn2
 
     public class Position
     {
-        public EmploymentLevel employmentLevel { get; set; }
-        public DateTime startdate { get; set; }
-        public DateTime enddate { get; set; }
+        public EmploymentLevel EmploymentLevel { get; set; }
+        public DateTime Startdate { get; set; }
+        public DateTime Enddate { get; set; }
         
     }
 }

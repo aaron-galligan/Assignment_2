@@ -4,11 +4,11 @@ using System.Text;
 
 namespace KIT206Assn2
 {
-    public class Staff
+    public class Staff : Researcher
     {
-        public double threeYearAvg { get; set; }
-        public double performance { get; set; }
-        public int supervisions { get; set; }
-        public List<String> studentsSupervised { get; set; }
+        public double ThreeYearAvg { get; set; }
+        public double Performance { get; set; }
+        public int Supervisions { get; set; }
+        public List<String> StudentsSupervised { get; set; }
     }
 }
