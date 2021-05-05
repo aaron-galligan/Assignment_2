@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aaron\\OneDrive\\Documents\\!UNI\\Software dev\\Assignment 2\\KIT206Assn2\\KIT206Assn2\\KIT206Assn2.csproj",
+      "projectUniqueName": "C:\\Users\\aaron\\Source\\Repos\\aaron-galligan\\Assignment_2\\KIT206Assn2\\KIT206Assn2.csproj",
       "projectName": "KIT206Assn2",
-      "projectPath": "C:\\Users\\aaron\\OneDrive\\Documents\\!UNI\\Software dev\\Assignment 2\\KIT206Assn2\\KIT206Assn2\\KIT206Assn2.csproj",
+      "projectPath": "C:\\Users\\aaron\\Source\\Repos\\aaron-galligan\\Assignment_2\\KIT206Assn2\\KIT206Assn2.csproj",
       "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aaron\\OneDrive\\Documents\\!UNI\\Software dev\\Assignment 2\\KIT206Assn2\\KIT206Assn2\\obj\\",
+      "outputPath": "C:\\Users\\aaron\\Source\\Repos\\aaron-galligan\\Assignment_2\\KIT206Assn2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",

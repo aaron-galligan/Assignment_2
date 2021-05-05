@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "KIT206Assn2/1.0.0": {
+        "runtime": {
+          "KIT206Assn2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KIT206Assn2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
