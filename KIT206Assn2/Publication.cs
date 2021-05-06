@@ -5,7 +5,7 @@ using System.Text;
 namespace KIT206Assn2
 {
     public enum OutputType { Conference, Journal, Other}
-    class Publication
+    public class Publication
     {
         public String Doi { get; set; }
         public String Title { get; set; }

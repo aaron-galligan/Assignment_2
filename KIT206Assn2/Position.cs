@@ -13,5 +13,10 @@ namespace KIT206Assn2
         public DateTime Startdate { get; set; }
         public DateTime Enddate { get; set; }
         
+
+        public static testc()
+        {
+            DateTime.
+        }
     }
 }
