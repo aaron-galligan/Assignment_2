@@ -19,7 +19,7 @@ namespace KIT206Assn2
 
         public static void anotherMethod()
         {
-            //just another method to test merging on github
+            //and another method to test merging on github
         }
     }
 }
