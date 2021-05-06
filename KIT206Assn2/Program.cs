@@ -15,5 +15,11 @@ namespace KIT206Assn2
         {
             Console.WriteLine("Hello World!");
         }
+
+
+        public static void anotherMethod()
+        {
+            //and another method to test merging on github
+        }
     }
 }
