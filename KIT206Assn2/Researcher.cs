@@ -24,11 +24,7 @@ namespace KIT206Assn2
          -storing them as objects means we will have to load up all the information for all the publications for all researchers on startup
          -or we can just load up the names and dates of their publications (we may need to use a 2d array or list)
          */
-
-
-        //stores a list of arrays size 2 for each publication, which has the name and date
-        public List<String[]> Publications { get; set; } 
-
+        public List<Publication> Publications { get; set; }
 
         public Campus Campus { get; set; }
         public Title Title { get; set; }
